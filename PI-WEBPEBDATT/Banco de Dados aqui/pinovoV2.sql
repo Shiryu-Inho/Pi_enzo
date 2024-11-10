@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 09/11/2024 às 01:59
+-- Tempo de geração: 10/11/2024 às 22:00
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -81,7 +81,7 @@ CREATE TABLE `usuario` (
   `matricula` varchar(12) NOT NULL,
   `username` varchar(30) NOT NULL,
   `data_nascimento` date NOT NULL,
-  `senha` varchar(20) NOT NULL
+  `senha` varchar(70) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -151,7 +151,7 @@ ALTER TABLE `usuario_comunidade`
 -- AUTO_INCREMENT de tabela `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- Restrições para tabelas despejadas
